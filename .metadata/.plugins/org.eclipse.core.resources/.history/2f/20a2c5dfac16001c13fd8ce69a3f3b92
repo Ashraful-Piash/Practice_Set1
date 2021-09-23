@@ -1,0 +1,20 @@
+package com.piash;
+import java.util.Scanner;
+public class Addition {
+
+	public static void main(String[] args) {
+		 Scanner sc = new Scanner(System.in);
+		 System.out.println("enter number 1");
+		 /*int a = sc.nextInt();
+		 
+		 System.out.println("enter number 2");
+		 int b = sc.nextInt();
+		 
+		 int sum = a+b;
+		 System.out.print("sum of the number " +sum); */
+		 boolean b1 = sc.hasNextInt();
+		 System.out.println(b1);
+
+	}
+
+}

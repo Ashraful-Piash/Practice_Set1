@@ -1,0 +1,14 @@
+package com.piash;
+
+public class String3 {
+
+	public static void main(String[] args) {
+		String names = "Ms Jerin, Baker, piash, Ms Shilpi";
+		String allNames [] = names.split("Ms");
+		
+		for (String name : allNames) {
+			System.out.println(name);
+		}
+	}
+
+}

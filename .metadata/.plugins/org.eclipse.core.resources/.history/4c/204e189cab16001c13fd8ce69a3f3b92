@@ -1,0 +1,16 @@
+package com.piash;
+
+public class Addition {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num1 = 8;
+		int num2 = 9;
+		int num3 = 10;
+		int sum = num1+num2+num3;
+		System.out.print("Sum of the numbers ");
+		System.out.println(sum);
+
+	}
+
+}

@@ -1,0 +1,30 @@
+package com.piash;
+
+import java.util.Scanner;
+
+public class Practice {
+	public static void main (String[]args) {
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.print("enter v");
+		int v = sc.nextInt();	
+		
+		System.out.print("enter u");
+		int u = sc.nextInt();
+		
+		System.out.print("enter a");
+		int a = sc.nextInt();
+		
+		System.out.println("enter s");
+		int s = sc.nextInt();
+		
+		
+		int result = (v*v-u*u)/ (2*a*s);
+		System.out.println("result is: "+result);
+	}
+	
+
+	
+	}
+
+

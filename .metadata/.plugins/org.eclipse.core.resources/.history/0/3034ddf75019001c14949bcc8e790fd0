@@ -1,0 +1,23 @@
+package com.piash;
+
+public class String_1_Practice {
+
+	public static void main(String[] args) {
+		String name = "Piash";
+		int value = name.length();
+		System.out.println(value);
+		
+		String lstring = name.toLowerCase();
+		System.out.println(lstring);
+		
+		String nonTrimmedString = " piashhh ";
+		System.out.println(nonTrimmedString.trim());
+		
+		String name1 = "Swaran";
+		System.out.println(name1.substring(3));
+		
+		System.out.println(name1.substring(1,3));
+		
+	}
+
+}
